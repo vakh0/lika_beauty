@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Segoe UI";
+}
+
+.header {
+    margin: 20px auto 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_list {
+    margin: 0 0 0 180px;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu_list_item {
+    margin-left: 40px;
+    padding-top: 11px;
+}
+
+.list_link {
+    color: #060000;
+}
+
+.btn {
+    padding: 11px 30px 15px 30px;
+    margin-bottom: 15px;
+    color: #FFF;
+    background-color: #060000;
+    border-radius: 50px;
+    margin-right: 70px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    transition: 0.5s;
+    background: #585858;
+
+}
+
+/* sectionn */
+.first_section {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas: "a b";
+    background: #A6D5DF;
+    width: 100%;
+    height: 100%;
+}
+
+.first_column {
+    grid-area: a;
+    text-align: center;
+
+}
+
+.lika_beauty {
+    margin-top: 100px;
+    font-size: 42px;
+}
+
+.about_products {
+    margin: 70px 0 155px 0;
+    font-size: 18px;
+}
+
+.btn-brands {
+    color: #FFFFFF;
+    background: #060000;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+
+}
+
+.btn-brands:hover {
+    transition: 0.5s;
+    background: #585858;
+
+}
+
+.second_column>img {
+    grid-area: b;
+    max-width: 700px;
+    width: 100%;
+    padding: 100px 65px 0 0;
+}
+
+/* second section */
+.second_section {
+    margin: 0 84px 85px 84px;
+    display: grid;
+    grid-template-areas:
+        "a a a"
+        "b c d";
+    text-align: center;
+    gap: 84px;
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 32px;
+    font-weight: 700;
+}
+
+.second_header {
+    grid-area: a;
+    margin: 70px auto 130px auto;
+}
+
+.night_creams>img,
+.sun_screens>img,
+.moisturizers>img {
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+.night_creams {
+    grid-area: b;
+    color: #4F4F4F;
+}
+
+.sun_screens {
+    color: #4F4F4F;
+    grid-area: c;
+}
+
+.moisturizers {
+    color: #4F4F4F;
+    grid-area: d;
+}
+
+/* thirdsection */
+.third_secction {
+    display: grid;
+    grid-template-areas:
+        "a"
+        "b";
+}
+
+.first_row {
+    background-color: #D8ECF1;
+
+    padding: 0 130px;
+    display: grid;
+    grid-template-areas:
+        "a a a "
+        "b c d";
+    text-align: center;
+    gap: 60px;
+}
+
+.deal_title {
+    grid-area: a;
+    margin-top: 40px;
+}
+
+.off10,
+.off15,
+.off20 {
+    color: #4F4F4F;
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content {
+    color: #FFFFFF;
+    padding: 22px 40px;
+    background: #202A36;
+    border-radius: 100px;
+    font-size: 24px;
+    font-style: bold;
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.off10 {
+    grid-area: b;
+}
+
+.off15 {
+    grid-area: c;
+    border-radius: 100px;
+}
+
+.off20 {
+    grid-area: d;
+    border-radius: 100px;
+}
+
+.fa-circle-check {
+    color: #e8d8d8;
+    background-color: #202A36;
+    font-size: 50px;
+}
+
+/* ****************second row ******************/
+.second_row {
+    display: grid;
+    grid-template-areas:
+        "a a a a"
+        "b c d e";
+    text-align: center;
+    gap: 20px;
+    margin: 0 120px;
+}
+
+.second_title {
+    margin-top: 60px;
+    grid-area: a;
+}
+
+.nail {
+    grid-area: b;
+    margin-bottom: 40px;
+
+}
+
+.night_creme {
+    grid-area: c;
+    margin-bottom: 40px;
+
+}
+
+.shades {
+    grid-area: d;
+    margin-bottom: 40px;
+
+}
+
+.lipstick {
+    grid-area: e;
+    margin-bottom: 40px;
+
+}
+
+.nail>img,
+.night_creme>img,
+.shades>img,
+.lipstick>img {
+    width: 100%;
+}
+
+.nailp {
+    color: #4F4F4F;
+    Font-style: Bold;
+    Font-size: 24px;
+    Line-height: 32px;
+    font-weight: 700;
+}
+
+/**************** contact us**************** */
+
+.contact_us {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    display: grid;
+    grid-template-areas:
+        "a b";
+    background: #EEF7F8;
+}
+
+.lets_talk {
+    grid-area: a;
+    color: #585858;
+    margin: 100px 0px 30px 120px;
+    gap: 40px;
+}
+
+.lets_talk>p {
+    margin: 30px 0;
+}
+
+.call,
+.email,
+.location {
+    display: flex;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.calll {
+    color: #A4A4A4;
+}
+
+.number {
+    color: #000000;
+}
+
+.fa-envelope,
+.fa-phone-volume,
+.fa-map-location-dot {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+/* ******************************* */
+.send_message {
+    grid-area: b;
+    border: 1px solid #DFDFDF;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0 120px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #DFDFDF;
+}
+
+.firstname {
+    margin-top: 70px;
+}
+
+input {
+    max-width: 350px;
+
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background: #DFDFDF;
+    border: none;
+}
+
+.message>input {
+    height: 170px;
+    border-radius: 25px;
+
+}
+
+.send {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 20px 0;
+    border-radius: 50px;
+    width: 160px;
+    text-align: center;
+    margin-bottom: 40px;
+}
